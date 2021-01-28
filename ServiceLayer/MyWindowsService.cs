@@ -11,24 +11,21 @@ using System.Threading.Tasks;
 
 namespace ServiceLayer
 {
-    partial class MyWindowsService : ServiceBase
-    {
-        ServiceHost host;
-
-        public MyWindowsService()
-        {
-            InitializeComponent();
-        }
-
-        protected override void OnStart(string[] args)
-        {
-            host = new ServiceHost(typeof(MyWCFService));
-            host.Open();
-        }
-
-        protected override void OnStop()
-        {
-            host.Close();
-        }
-    }
+       partial class MyWindowsService : ServiceBase
+       {
+           ServiceHost host;
+           public MyWindowsService()
+           {
+               InitializeComponent();
+           }
+           protected override void OnStart(string[] args)
+           {
+               host = new ServiceHost(typeof(MyWCFService));
+               host.Open();
+           }
+           protected override void OnStop()
+           {
+               host.Close();
+           }
+       }
 }

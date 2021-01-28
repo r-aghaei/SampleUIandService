@@ -15,7 +15,19 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_0F0787832209040563CC9F41D911D23B"
+        "OwnerKey" = "8:_D6B2662B760E44D9AD24BAE455BA4C87"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8D440BCD63F546C797E75D012882BF8C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D6B2662B760E44D9AD24BAE455BA4C87"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -27,8 +39,26 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_EA88BE14E4674B4221DE48AAC53BECCD"
+        "OwnerKey" = "8:_D6B2662B760E44D9AD24BAE455BA4C87"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_EA88BE14E4674B4221DE48AAC53BECCD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_D6B2662B760E44D9AD24BAE455BA4C87"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_0F0787832209040563CC9F41D911D23B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -91,6 +121,48 @@
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_4D27FA35ED564472930112A54C0659E6"
+            {
+            "Name" = "8:Primary output from ServiceLayer (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_8D440BCD63F546C797E75D012882BF8C"
+            "FileType" = "3:2"
+            "InstallAction" = "3:4"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_B0EE8F81_437F_4101_B8FE_C36052B0EA7C"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_AF13533F80CD45B380F3F96138B2E96C"
+            {
+            "Name" = "8:Primary output from ServiceLayer (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_8D440BCD63F546C797E75D012882BF8C"
+            "FileType" = "3:2"
+            "InstallAction" = "3:3"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_3A1595F4_9AD0_4E88_8547_4E3ACE062A0F"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_FBBA8E43C098486C87ED4727E3D7FB3B"
+            {
+            "Name" = "8:Primary output from ServiceLayer (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_8D440BCD63F546C797E75D012882BF8C"
+            "FileType" = "3:2"
+            "InstallAction" = "3:2"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_17AB8740_36F2_4312_A19F_AE8B5A8340E7"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
         }
         "DefaultFeature"
         {
@@ -114,6 +186,37 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0F0787832209040563CC9F41D911D23B"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ServiceLayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_0F0787832209040563CC9F41D911D23B"
+                    {
+                    "Name" = "8:ServiceLayer.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:ServiceLayer.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_49419B5259D84E8BA959BB33475FEBB5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EA88BE14E4674B4221DE48AAC53BECCD"
             {
             "AssemblyRegister" = "3:1"
@@ -185,6 +288,17 @@
                 {
                 }
             }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_DE335C0C041D45EB88BD0F4DB2C8FB65"
+            {
+            "Name" = "8:#1928"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:StartupFolder"
+                "Folders"
+                {
+                }
+            }
         }
         "LaunchCondition"
         {
@@ -202,7 +316,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:MySetup"
         "ProductCode" = "8:{D040D12B-6750-412B-8656-C47A5ABCDC38}"
-        "PackageCode" = "8:{7CD638CF-27C3-4E0F-BD46-F20BE4C88BE1}"
+        "PackageCode" = "8:{39CC15BD-75CD-4A2C-8157-3167DD197156}"
         "UpgradeCode" = "8:{CBC02EE4-4D76-44B5-823B-5A34865C9B3E}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -322,6 +436,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4089C326B6064F55AA0CD44BADE335CF"
+            {
+            "Name" = "8:Shortcut to Primary output from UILayer (Active)"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_D6B2662B760E44D9AD24BAE455BA4C87"
+            "Folder" = "8:_DE335C0C041D45EB88BD0F4DB2C8FB65"
+            "WorkingFolder" = "8:_49419B5259D84E8BA959BB33475FEBB5"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
@@ -744,6 +872,34 @@
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{B4E870E4-9DB1-463B-BE09-4520BF0FC1EB}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D6B2662B760E44D9AD24BAE455BA4C87"
+            {
+            "SourcePath" = "8:..\\SampleUIandService\\obj\\Debug\\UILayer.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_49419B5259D84E8BA959BB33475FEBB5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{5072E9E5-4100-4124-AEF6-827C297BB572}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {
