@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Linq;
+using System.ServiceModel;
 using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,8 @@ namespace ServiceLayer
 {
     partial class MyWindowsService : ServiceBase
     {
+        ServiceHost host;
+
         public MyWindowsService()
         {
             InitializeComponent();
@@ -19,12 +22,13 @@ namespace ServiceLayer
 
         protected override void OnStart(string[] args)
         {
-            // TODO: Add code here to start your service.
+            host = new ServiceHost(typeof(MyWCFService));
+            host.Open();
         }
 
         protected override void OnStop()
         {
-            // TODO: Add code here to perform any tear-down necessary to stop your service.
+            host.Close();
         }
     }
 }
